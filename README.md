@@ -1,5 +1,5 @@
 # System Design Overview
 
 ### [Load Balancing](https://github.com/EddieChoCho/system-design-overview/tree/master/Load%20Balancing)
-### Cache
+### [Caching](https://github.com/EddieChoCho/system-design-overview/tree/master/Caching)
 ### Cluster
