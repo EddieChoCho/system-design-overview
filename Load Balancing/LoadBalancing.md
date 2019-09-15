@@ -19,7 +19,7 @@ LB will stop sending traffic to such a server.
 * `IP Hash` — Under this method, a hash of the IP address of the client is calculated to redirect the request to a server.
 
 ### Further Reading
-* [Using nginx as HTTP load balancer](http://nginx.org/en/docs/http/load_balancing.html)
+* [HTTP Load Balancing with Nginx](https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/)
 ### Reference
 * [What is Load Balancing? (by Gaurav Sen)](https://youtu.be/K0Ta65OqQkY)
 * [Grokking The System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview)
