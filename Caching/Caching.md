@@ -55,6 +55,9 @@ we will have complete data consistency between the cache and the storage.
         * And it will be force eviction when writing new data
         * And Redis is single thread, one task could delay all queue
     * Redis LRU algorithm is not an exact implementation - [Approximated LRU algorithm](https://redis.io/topics/lru-cache)
+* In Memory Application Cache: For large data case, use in memory cache to avoid ORM lazy loading.
+    * TODO: do an experiment.  
+     
 
 ### Reference
 * [1][What is Distributed Caching? Explained with Redis!](https://youtu.be/U3RkDLtS7uY) (Description for write-back cache is incorrect.)
