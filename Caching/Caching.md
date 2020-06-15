@@ -49,6 +49,8 @@ we will have complete data consistency between the cache and the storage.
 * Least Frequently Used (LFU): Counts how often an item is needed. Those that are used least often are discarded first.
 * Random Replacement (RR): Randomly selects a candidate item and discards it to make space when necessary.
 
+### [Architectural Patterns for Caching Microservices](https://github.com/EddieChoCho/tech-talks-note/blob/master/2020/WhereIsMyCache%3FArchitecturalPatternsForCachingMicroservices.md)
+
 ### Best practices
 * Redis: Cache eviction should not depend on LRU but TTL. [4]
     * Without setting TTL, Redis cache eviction(LRU) might be happened during peak hours!
