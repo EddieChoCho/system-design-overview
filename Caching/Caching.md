@@ -1,5 +1,12 @@
 # Caching
 
+* When implementing a cache you have the following three issues to think about[5]:
+    * Populating the cache
+        * Upfront population
+        * Lazy population
+    * Keeping the cache and remote system in sync: Cache Invalidation
+    * Managing cache size: Cache eviction policies
+    
 ### Application server cache
 ### Content Distribution Network (CDN) [3]
 
@@ -60,9 +67,12 @@ we will have complete data consistency between the cache and the storage.
 * In Memory Application Cache: For large data case, use in memory cache to avoid ORM lazy loading.
     * TODO: do an experiment.  
      
+### Further Readings
+* [Not of "Where is my Cache? Architectural Patterns for Caching Microservices"](https://github.com/EddieChoCho/tech-talks-note/blob/master/2020/WhereIsMyCache%3FArchitecturalPatternsForCachingMicroservices.md)
 
 ### Reference
 * [1][What is Distributed Caching? Explained with Redis!](https://youtu.be/U3RkDLtS7uY) (Description for write-back cache is incorrect.)
 * [2][The System Design Primer](https://github.com/donnemartin/system-design-primer/blob/master/README.md#content-delivery-network)
 * [3][Grokking The System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview)
 * [4][Tech talks from Triton](http://github.com/TritonHo/slides/blob/master/Taipei%202019-10%20talk/concurrency.pdf)
+* [5][Caching Techniques by Jakob Jenkov](http://tutorials.jenkov.com/software-architecture/caching-techniques.html)
